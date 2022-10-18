@@ -1,0 +1,58 @@
+{
+	"dochia" :
+	{
+		"class" : "ovate",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cetatea/heroes/dochia/spec-small.png",
+			"specialtyLarge" : "cetatea/heroes/dochia/spec-large.png",
+			"large" : "cetatea/heroes/dochia/portrait-large.bmp",
+			"small" : "cetatea/heroes/dochia/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cWolf", "min" : 18, "max" : 18 },
+			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
+			{ "creature" : "firstAidTent", "min" :  1, "max" :  1 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"spellbook" : ["cure"],
+		"texts" :
+		{
+			"name" : "Dochia",
+			"biography" : "",
+		
+			"specialty" : {
+				"description" : "Secondary Skill Bonus: First Aid",
+				"name" : "First Aid",
+				"tooltip" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "skill.firstAid",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,59 @@
+{
+	"ghionaia" :
+	{
+		"class" : "voivode",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cetatea/heroes/ghionaia/spec-small.png",
+			"specialtyLarge" : "cetatea/heroes/ghionaia/spec-large.png",
+			"large" : "cetatea/heroes/ghionaia/portrait-large.bmp",
+			"small" : "cetatea/heroes/ghionaia/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cWolf", "min" : 12, "max" : 34 },
+			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
+			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Ghionaia",
+			"biography" : "Ghionaia is the master of Zgriptori, its magic is capable to transform other smaller birds into powerful zgriptori.",
+		
+			"specialty" : {
+				"description" : "Can upgrade Griffins, Royal Griffins, Rocs and Thnederbirds into Zgriptori.",
+				"name" : "Zgriptori",
+				"tooltip" : "{Zgriptori}\r\n\r\nCan upgrade Griffins, Royal Griffins, Rocs and Thnederbirds into Zgriptori."
+			}
+		},
+		
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.cZgriptor",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"griffin2cZgriptor" : { "subtype" : "creature.griffin" },
+				"royalGriffin2cZgriptor" : { "subtype" : "creature.royalGriffin" },
+				"roc2cZgriptor" : { "subtype" : "creature.roc" },
+				"thunderbird2cZgriptor" : { "subtype" : "creature.thunderbird" }
+			}
+		}
+	}
+}
+
+

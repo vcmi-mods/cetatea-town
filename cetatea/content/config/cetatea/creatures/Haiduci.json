@@ -1,0 +1,84 @@
+{
+	"cHaiduci":
+	{
+		"name" :
+		{
+			"plural" : "Haiduci",
+			"singular" : "Haiduc"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "cetatea",
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 4,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 15,
+		"speed" : 7,
+		"fightValue" : 370,
+		"aiValue" : 354,
+		"horde" : 4,
+		"shots" : 32,
+		"cost" :
+		{
+			"gold" : 250
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/haiduci.def",
+			"map" : "cetatea/creatures/map/haiduci.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/haiduci.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/haiduci.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "cetatea/creatures/projectile/PPLIZAX.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"abilities":
+		{
+			"shoter" :
+			{
+				"type" : "SHOOTER"
+			}
+		},	
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		}
+	}
+}
+
+
+

@@ -1,0 +1,58 @@
+{
+	"queenelena" :
+	{
+		"class" : "ovate",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cetatea/heroes/queenelena/spec-small.png",
+			"specialtyLarge" : "cetatea/heroes/queenelena/spec-large.png",
+			"large" : "cetatea/heroes/queenelena/portrait-large.bmp",
+			"small" : "cetatea/heroes/queenelena/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cWolf", "min" : 15, "max" : 30 },
+			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
+			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		"spellbook" : ["haste"],
+		"texts" :
+		{
+			"name" : "Queen Elena",
+			"biography" : "",
+		
+			"specialty" : {
+				"description" : "Receives a 7% per level bonus to Learning skill percentage.",
+				"name" : "Learning",
+				"tooltip" : "{Learning}\r\n\r\nReceives a 7% per level bonus to Learning skill percentage."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"learning" : {
+					"subtype" : "skill.learning",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 7,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

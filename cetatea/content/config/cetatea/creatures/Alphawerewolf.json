@@ -1,0 +1,69 @@
+{
+	"cAlphawerewolf":
+	{
+		"name" :
+		{
+			"plural" : "Alpha Werewolves",
+			"singular" : "Alpha Werewolf"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "cetatea",
+		"level" : 5,
+		"attack" : 13,
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 12,
+			 "max" : 15
+		},
+		"growth" : 3,
+		"horde" : 2,
+		"hitPoints" : 45,
+		"speed" : 6,
+		"fightValue" : 835,
+		"aiValue" : 915,
+		"cost" :
+		{
+			"gold" : 550
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/alphawerewolf.def",
+			"map" : "cetatea/creatures/map/alphawerewolf.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/alphawerewolf.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/alphawerewolf.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.7,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"transmutation" :
+			{
+				"type" : "TRANSMUTATION",
+				"val" : 20,  //20% chance of transumutation
+				"subtype" : 0 //ressurection based on HP
+			}
+		},	
+		"sound" :
+		{
+						"attack": "Ceatatea/wolfattk.wav",
+			"defend": "Ceatatea/alwfdfnd.wav",
+			"killed": "Ceatatea/wolfkill.wav",
+			"move": "Ceatatea/wolfmove.wav",
+			"wince": "Ceatatea/wolfwnce.wav"
+		}
+	}
+}
+
+
+

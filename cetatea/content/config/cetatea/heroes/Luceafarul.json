@@ -1,0 +1,57 @@
+{
+	"luceafarul" :
+	{
+		"class" : "voivode",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cetatea/heroes/luceafarul/spec-small.png",
+			"specialtyLarge" : "cetatea/heroes/luceafarul/spec-large.png",
+			"large" : "cetatea/heroes/luceafarul/portrait-large.bmp",
+			"small" : "cetatea/heroes/luceafarul/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cWolf", "min" : 18, "max" : 26 },
+			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
+			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "eagleEye"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Luceafarul",
+			"biography" : "",
+		
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
+				"name" : "Eagle Eye",
+				"tooltip" : "{Eagle Eye}\r\n\r\nReceives a 5% per level bonus to Eagle Eye skill percentage."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.eagleEye",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

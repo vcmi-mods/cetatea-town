@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"dw1" : {
+				"name" : "Wolf Den",
+				"creatures" : [[ "cWolf" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "cetatea/creatures/dwellings/dw1.def",
+						"mask" : [ "VVV", "BAB" ]
+					}
+				}
+			},
+			"dw2" : {
+				"name" : "Cursed Ruins",
+				"creatures" : [[ "cMoroi" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "cetatea/creatures/dwellings/dw2.def",
+						"mask" : [ "VVBBV", "VVBBB", "VBBAB" ]
+					}
+				}
+			},
+			"dw3" : {
+				"name" : "Forest Lodge",
+				"creatures" : [[ "cVoinici" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "cetatea/creatures/dwellings/dw3.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"dw4" : {
+				"name" : "Black Citadel",
+				"creatures" : [[ "cVampire" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "cetatea/creatures/dwellings/dw4.def",
+						"mask" : [ "VVV", "VBB", "BAB" ]
+					}
+				}
+			},
+			"dw5" : {
+				"name" : "Dacic Altar",
+				"creatures" : [[ "cWerewolf" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "cetatea/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VVV", "BAB" ]
+					}
+				}
+			},
+			"dw6" : {
+				"name" : "Zgriptor's Cliffs",
+				"creatures" : [[ "cZgriptor" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "cetatea/creatures/dwellings/dw6.def",
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VBAV" ]
+					}
+				}
+			},
+			"dw7" : {
+				"name" : "Mighty Grotto",
+				"creatures" : [[ "cZmeu" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "cetatea/creatures/dwellings/dw7.def",
+						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

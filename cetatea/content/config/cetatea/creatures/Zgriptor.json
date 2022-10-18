@@ -1,0 +1,73 @@
+{
+	"cZgriptor":
+	{
+		"name" :
+		{
+			"plural" : "Zgriptori",
+			"singular" : "Zgriptor"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 6
+		},
+		"faction" : "cetatea",
+		"upgrades": ["cFiercezgriptor"],
+		"level" : 6,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 17,
+			 "max" : 24
+		},
+		"growth" : 2,
+		"hitPoints" : 120,
+		"speed" : 8,
+		"fightValue" : 1930,
+		"aiValue" : 2302,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/zgriptor.def",
+			"map" : "cetatea/creatures/map/zgriptor.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/zgriptor.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/zgriptor.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"increaseManaCost" :
+			{
+				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+				"val" : 2
+			},
+			"flying" :
+			{
+				"type" : "FLYING"
+			}
+		},	
+		"sound" :
+		{
+			"attack": "Ceatatea/DBSTATTK.wav",
+			"defend": "Ceatatea/DBSTDFND.wav",
+			"killed": "Ceatatea/DBSTKILL.wav",
+			"move": "Ceatatea/DBSTMOVE.wav",
+			"wince": "Ceatatea/DBSTWNCE.wav"
+		}
+	}
+}
+
+
+

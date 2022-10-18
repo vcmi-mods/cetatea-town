@@ -1,0 +1,94 @@
+{
+	"voivode" :
+	{
+		"faction" : "cetatea",
+		"animation" :
+		{
+			"battle" : 
+			{
+                "male"   : "cetatea/battle/CH22.def",
+				"female" : "cetatea/battle/CH23.def"
+				
+			},
+		},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "cetatea/map/AH22_.def" },
+				"female" : { "animation" : "cetatea/map/AH23_.def" }
+			}
+		},
+		
+		"name" : "Voivode",
+		
+		"affinity" : "might",
+		
+	        "commander" : "cIele",
+
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 2,
+			"spellpower" : 1,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 30,
+			"spellpower" : 20,
+			"knowledge"  : 20
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 35,
+			"defence"    : 45,
+			"spellpower" : 10,
+			"knowledge"  : 10
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 7,
+			"archery"      : 8,
+			"logistics"    : 5,
+			"scouting"     : 7,
+			"diplomacy"    : 4,
+			"navigation"   : 3,
+			"leadership"   : 6,
+			"wisdom"       : 3,
+			"mysticism"    : 3,
+			"luck"         : 6,
+			"ballistics"   : 4,
+			"eagleEye"     : 2,
+			"necromancy"   : 0,
+			"estates"      : 2,
+			"fireMagic"    : 0,
+			"airMagic"     : 1,
+			"waterMagic"   : 3,
+			"earthMagic"   : 4,
+			"scholar"      : 1,
+			"tactics"      : 5,
+			"artillery"    : 6,
+			"learning"     : 4,
+			"offence"      : 5,
+			"armorer"      : 8,
+			"intelligence" : 2,
+			"sorcery"      : 2,
+			"resistance"   : 9,
+			"firstAid"     : 3
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 6,
+			"rampart"    : 6,
+			"tower"      : 6,
+			"inferno"    : 5,
+			"necropolis" : 5,
+			"dungeon"    : 5,
+			"stronghold" : 6,
+			"fortress"   : 5,
+			"conflux"    : 5,
+			"cetatea"    : 6
+		}
+	}
+}

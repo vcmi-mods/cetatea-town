@@ -1,0 +1,79 @@
+{
+	"cStrigoi":
+	{
+		"name" :
+		{
+			"plural" : "Strigois",
+			"singular" : "Strigoi"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "cetatea",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 4
+		},
+		"growth" : 8,
+		"hitPoints" : 16,
+		"speed" : 6,
+		"fightValue" : 231,
+		"aiValue" : 225,
+		"horde" : 4,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/strigoi.def",
+			"map" : "cetatea/creatures/map/strigoi.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/strigoi.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/strigoi.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 40
+			},
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"curseOnAttack" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 35
+			}
+			
+		},	
+		"sound" :
+		{
+			"attack": "Ceatatea/STRGATTK.wav",
+			"defend": "Ceatatea/STRGDFND.wav",
+			"killed": "Ceatatea/STRGKILL.wav",
+			"move": "Ceatatea/STRGMOVE.wav",
+			"wince": "Ceatatea/STRGWNCE.wav"
+		}
+	}
+}
+
+
+

@@ -1,0 +1,68 @@
+{
+	"cDirewolf":
+	{
+		"name" :
+		{
+			"plural" : "Dire Wolves",
+			"singular" : "Dire Wolf"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 20
+		},
+		"faction" : "cetatea",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 4,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 14,
+		"hitPoints" : 7,
+		"speed" : 7,
+		"fightValue" : 182,
+		"aiValue" : 170,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 80
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/direwolf.def",
+			"map" : "cetatea/creatures/map/direwolf.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/direwolf.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/direwolf.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}	
+		},	
+		"sound" :
+		{
+			"attack": "Ceatatea/DIRWATTK.wav",
+			"defend": "Ceatatea/DIRWDFND.wav",
+			"killed": "Ceatatea/DIRWKILL.wav",
+			"move": "Ceatatea/DIRWMOVE.wav",
+			"wince": "Ceatatea/DIRWWNCE.wav"
+		}
+	}
+}
+
+
+

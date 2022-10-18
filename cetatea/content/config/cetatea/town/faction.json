@@ -1,0 +1,176 @@
+{
+	"cetatea" :
+	{
+		"name" : "Cetatea",
+		"nativeTerrain" : "grass",
+		"alignment" : "good",
+		"creatureBackground" :
+		{
+			"120px" : "cetatea/creature-bg-120px.bmp",
+			"130px" : "cetatea/creature-bg-130px.bmp"
+		},
+		"town" :
+		{
+			"mapObject" :
+			{
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"castle" :  { "animation" : "cetatea/adventure-map/town/town-castle.def" },
+					"citadel" : { "animation" : "cetatea/adventure-map/town/town-castle.def" },
+					"fort"    : { "animation" : "cetatea/adventure-map/town/town-castle.def" },
+					"village" : { "animation" : "cetatea/adventure-map/town/town-village.def" },
+					"capitol" : { "animation" : "cetatea/adventure-map/town/town-capitol.def" }
+				}
+			},
+
+			"musicTheme" : "music/factions/cetatea",
+			"defaultTavern" : 5,
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 2,
+				"druid"        : 2,
+				"alchemist"    : 5,
+				"wizard"       : 5,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 5,
+				"overlord"     : 5,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 5,
+				"planeswalker" : 5,
+				"elementalist" : 5
+			},
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"guildSpells" : {
+				"airShield" : 2,
+				"antiMagic" : 10,
+				"berserk" : 5,
+				"bless" : 10,
+				"bloodlust" : 5,
+				"chainLightning" : 10,
+				"clone" : 10,
+				"counterstrike" : 5,
+				"cure" : 5,
+				"disguise" : 2,
+				"dispel" : 10,
+				"disruptingRay" : 6,
+				"earthquake" : 8,
+				"fireShield" : 5,
+				"fireWall" : 4,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"fortune" : 4,
+				"frenzy" : 5,
+				"frostRing" : 30,
+				"haste" : 10,
+				"hypnotize" : 4,
+				"iceBolt" : 50,
+				"inferno" : 5,
+				"landMine" : 4,
+				"lightningBolt" : 4,
+				"magicArrow" : 30,
+				"meteorShower" : 10,
+				"mirth" : 8,
+				"misfortune" : 4,
+				"prayer" : 10,
+				"precision" : 4,
+				"protectAir" : 2,
+				"protectEarth" : 4,
+				"protectFire" : 3,
+				"protectWater" : 3,
+				"quicksand" : 4,
+				"removeObstacle" : 4,
+				"resurrection" : 5,
+				"scuttleBoat" : 8,
+				"shield" : 3,
+				"slayer" : 5,
+				"slow" : 5,
+				"sorrow" : 5,
+				"stoneSkin" : 5,
+				"summonBoat" : 5,
+				"teleport" : 10,
+				"townPortal" : 10,
+				"viewAir" : 3,
+				"viewEarth" : 3,
+				"visions" : 2,
+				"waterWalk" : 10,
+				"weakness" : 8
+			},
+			"townBackground": "cetatea/town-screen/background.bmp",
+			"guildWindow": "cetatea/town-screen/mage-guild.bmp",
+			"buildingsIcons": "cetatea/town-hall.def",
+			"hallBackground": "TPTHBKFR.bmp",
+                          "primaryResource" : "gems",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1" ] ],
+				[ [ "special3" ], [ "horde2", "horde2Upgr" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7"] ]
+			],
+			"creatures" :
+			[
+				["cWolf", "cDirewolf"],
+				["cMoroi", "cStrigoi"],
+				["cVoinici", "cHaiduci"],
+				["cVampire", "cVampirelord"],
+				["cWerewolf", "cAlphawerewolf"],
+				["cZgriptor", "cFiercezgriptor"],
+				["cZmeu", "cBalauri"]
+			],
+			"horde" : [ 1, 4 ],
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "cetatea/icons/fort-builded-big.png",
+						"small" : "cetatea/icons/fort-builded-small.png"
+					},
+					"normal" : { "large" : "cetatea/icons/fort-big.png", "small" : "cetatea/icons/fort-small.png" }
+				},
+				"village" : {
+					"built" : {
+						"large" : "cetatea/icons/hall-builded-big.png",
+						"small" : "cetatea/icons/hall-builded-small.png"
+					},
+					"normal" : { "large" : "cetatea/icons/hall-big.png", "small" : "cetatea/icons/hall-small.png" }
+				}
+                        },
+			"mageGuild" : 5,
+			"warMachine" : "firstAidTent",
+			"moatDamage" : 90,
+			"moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
+			"names" : [
+				"Targoviste",
+				"Cluj",
+				"Bucuresti",
+				"Iasi",
+				"Brasov",
+				"Constanta",
+				"Targu-Jiu",
+				"Craiova",
+				"Drobeta",
+				"Sarmisegetuza",
+				"Transilvania",
+				"Sighisoara",
+				"Hunedoara",
+				"Tomis",
+				"Callatis",
+                "Targu Mures"
+			]
+		}
+	}
+}
+

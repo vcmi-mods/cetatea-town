@@ -1,0 +1,50 @@
+{
+	"queenmaria" :
+	{
+		"class" : "voivode",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cetatea/heroes/queenmaria/spec-small.png",
+			"specialtyLarge" : "cetatea/heroes/queenmaria/spec-large.png",
+			"large" : "cetatea/heroes/queenmaria/portrait-large.bmp",
+			"small" : "cetatea/heroes/queenmaria/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "cWolf", "min" : 15, "max" : 30 },
+			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
+			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "archery"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Queen Maria",
+			"biography" : "Marie of Romania (Marie Alexandra Victoria, previously Princess Marie of Edinburgh; 29 October 1875 – 18 July 1938) was Queen consort of Romania from 1914 to 1927, as the wife of Ferdinand of Romania.",
+		
+			"specialty" : {
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+
+

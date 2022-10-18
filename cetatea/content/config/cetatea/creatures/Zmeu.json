@@ -1,0 +1,83 @@
+{
+	"cZmeu":
+	{
+		"name" :
+		{
+			"plural" : "Zmei",
+			"singular" : "Zmeu"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "cetatea",
+		"upgrades": ["cBalauri"],
+		"level" : 7,
+		"attack" : 18,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 180,
+		"speed" : 11,
+		"fightValue" : 3853,
+		"aiValue" : 4783,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 2400,
+			"gems" : 1
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/zmeu.def",
+			"map" : "cetatea/creatures/map/zmeu.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/zmeu.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/zmeu.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			},
+			"flying" :
+			{
+				"type" : "FLYING"
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			},
+			"receptive" :
+			{
+				"type" : "RECEPTIVE",
+				"val" : 1
+			}
+		},	
+		"sound" :
+		{
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		}
+	}
+}
+
+
+

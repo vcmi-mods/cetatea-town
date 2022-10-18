@@ -1,0 +1,57 @@
+{
+	"greuceanu" :
+	{
+		"class" : "ovate",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cetatea/heroes/greuceanu/spec-small.png",
+			"specialtyLarge" : "cetatea/heroes/greuceanu/spec-large.png",
+			"large" : "cetatea/heroes/greuceanu/portrait-large.bmp",
+			"small" : "cetatea/heroes/greuceanu/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cWolf", "min" : 15, "max" : 30 },
+			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
+			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"spellbook" : ["slayer"],
+		"texts" :
+		{
+			"name" : "Greuceanu",
+			"biography" : "Greuceanu is a young brave man who finds that the Sun and the Moon have been stolen by zmei. After a long fight with the three zmei and their wives (zmeoaice), Greuceanu sets the Sun and the Moon free so the people on Earth have light again.",
+		
+			"specialty" : {
+				"description" : "Casts Slayer with increased effect, based on hero level compared to the level of the target unit.",
+				"name" : "Slayer",
+				"tooltip" : "{Slayer}\r\n\r\nCasts Slayer with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)"
+
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"slayer" : {
+					"addInfo" : 1,
+					"subtype" : "spell.slayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+

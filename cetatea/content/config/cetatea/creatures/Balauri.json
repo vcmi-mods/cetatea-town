@@ -1,0 +1,89 @@
+{
+	"cBalauri":
+	{
+		"name" :
+		{
+			"plural" : "Balauris",
+			"singular" : "Balaur"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 7,
+			 "min" : 4
+		},
+		"faction" : "cetatea",
+		"level" : 7,
+		"attack" : 24,
+		"defense" : 26,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"speed" : 15,
+		"fightValue" : 11919,
+		"aiValue" : 15294,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 4000,
+			"gems" : 2
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/balauri.def",
+			"map" : "cetatea/creatures/map/balauri.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/balauri.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/balauri.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"attackAll" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"king1" :
+			{
+				"type" : "KING1"
+			},
+			"receptive" :
+			{
+				"type" : "RECEPTIVE",
+				"val" : 1
+			}
+		},	
+		"sound" :
+		{
+			"attack": "Ceatatea/GORYATTK.wav",
+			"defend": "Ceatatea/GORYDFND.wav",
+			"killed": "Ceatatea/GORYKILL.wav",
+			"move": "Ceatatea/GORYMOVE.wav",
+			"wince": "Ceatatea/GORYWNCE.wav"
+		}
+	}
+}
+
+
+

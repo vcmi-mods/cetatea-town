@@ -1,0 +1,52 @@
+{
+	"mihaiviteazu" :
+	{
+		"class" : "ovate",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cetatea/heroes/mihaiviteazu/spec-small.png",
+			"specialtyLarge" : "cetatea/heroes/mihaiviteazu/spec-large.png",
+			"large" : "cetatea/heroes/mihaiviteazu/portrait-large.bmp",
+			"small" : "cetatea/heroes/mihaiviteazu/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cWolf", "min" : 33, "max" : 44 },
+			{ "creature" : "cMoroi", "min" :  3, "max" :  7 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "resistance"
+			}
+		],
+		"spellbook" : ["stoneSkin"],
+		"texts" :
+		{
+			"name" : "Mihai Viteazu",
+			"biography" : "Mihai Viteazul was the Voivode of Wallachia (1593–1601), of Transylvania (1599–1600), and of Moldavia (1600), the three Romanian principalitiesnote 1 being joined under his reign for a short period of time.",
+		
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Resistance skill percentage.",
+				"name" : "Resistance",
+				"tooltip" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill percentage."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"subtype" : "skill.resistance",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

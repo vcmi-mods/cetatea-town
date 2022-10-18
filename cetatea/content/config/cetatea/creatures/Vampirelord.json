@@ -1,0 +1,83 @@
+{
+	"cVampirelord":
+	{
+		"name" :
+		{
+			"plural" : "Nosferatu Lords",
+			"singular" : "Nosferatu Lord"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "cetatea",
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 5,
+			 "max" : 8
+		},
+		"growth" : 4,
+		"hitPoints" : 40,
+		"speed" : 9,
+		"fightValue" : 618,
+		"aiValue" : 654,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/vampirelord.def",
+			"map" : "cetatea/creatures/map/vampirelord.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/vampirelord.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/vampirelord.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+			"noRetalitation" : 
+			{
+				"type" : "BLOCKS_RETALIATION",
+				"subtype" : 1
+			},
+			"drainsLife" :
+			{
+				"type" : "LIFE_DRAIN",
+				"val" : 100
+			},
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"flying" :
+			{
+				"type" : "FLYING"
+			}			
+		},	
+		"sound" :
+		{
+			"attack": "NOSFATTK.wav",
+			"defend": "NOSFDFND.wav",
+			"killed": "NOSFKILL.wav",
+			"move": "NOSFMOVE.wav",
+			"shoot": "NOSFSHOT.wav",
+			"wince": "NOSFWNCE.wav",
+			"startMoving": "NOSFEXT1.wav",
+			"endMoving": "NOSFEXT2.wav"
+		}
+	}
+}
+
+
+

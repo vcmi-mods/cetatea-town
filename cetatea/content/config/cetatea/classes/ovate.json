@@ -1,0 +1,94 @@
+{
+	"ovate" :
+	{
+		"faction" : "cetatea",
+		"animation" :
+		{
+			"battle" : 
+			{
+                "male"   : "cetatea/battle/CH22.def",
+				"female" : "cetatea/battle/CH23.def"
+				
+			},
+		},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "cetatea/map/AH22_.def" },
+				"female" : { "animation" : "cetatea/map/AH23_.def" }
+			}
+		},
+		
+		"name" : "Ovate",
+		
+		"affinity" : "magic",
+		
+	        "commander" : "cIele",
+
+		"primarySkills" :
+		{
+			"attack"     : 0,
+			"defence"    : 2,
+			"spellpower" : 1,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 10,
+			"defence"    : 20,
+			"spellpower" : 35,
+			"knowledge"  : 35
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 30
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 5,
+			"archery"      : 5,
+			"logistics"    : 5,
+			"scouting"     : 2,
+			"diplomacy"    : 4,
+			"navigation"   : 2,
+			"leadership"   : 2,
+			"wisdom"       : 8,
+			"mysticism"    : 6,
+			"luck"         : 9,
+			"ballistics"   : 4,
+			"eagleEye"     : 7,
+			"necromancy"   : 0,
+			"estates"      : 3,
+			"fireMagic"    : 1,
+			"airMagic"     : 2,
+			"waterMagic"   : 4,
+			"earthMagic"   : 4,
+			"scholar"      : 8,
+			"tactics"      : 1,
+			"artillery"    : 1,
+			"learning"     : 4,
+			"offence"      : 1,
+			"armorer"      : 3,
+			"intelligence" : 7,
+			"sorcery"      : 6,
+			"resistance"   : 1,
+			"firstAid"     : 7
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 7,
+			"rampart"    : 6,
+			"tower"      : 6,
+			"inferno"    : 5,
+			"necropolis" : 5,
+			"dungeon"    : 5,
+			"stronghold" : 5,
+			"fortress"   : 6,
+			"conflux"    : 6,
+			"cetatea"    : 7
+		}
+	}
+}

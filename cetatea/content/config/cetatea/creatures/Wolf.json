@@ -1,0 +1,64 @@
+{
+	"cWolf":
+	{
+		"name" :
+		{
+			"plural" : "Wolves",
+			"singular" : "Wolf"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 40,
+			 "min" : 20
+		},
+		"faction" : "cetatea",
+		"upgrades": ["cDirewolf"],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 14,
+		"hitPoints" : 7,
+		"speed" : 5,
+		"fightValue" : 127,
+		"aiValue" : 115,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"graphics" :
+		{
+			"animation" : "cetatea/creatures/battle/wolf.def",
+			"map" : "cetatea/creatures/map/wolf.def",
+			"iconSmall" : "cetatea/creatures/iconsSmall/wolf.bmp",
+			"iconLarge" : "cetatea/creatures/iconsBig/wolf.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities":
+		{
+		},	
+		"sound" :
+		{
+			"attack": "Ceatatea/WLFWATTK.wav",
+			"defend": "Ceatatea/WLFWDFND.wav",
+			"killed": "Ceatatea/WLFWKILL.wav",
+			"move": "Ceatatea/WLFWMOVE.wav",
+			"wince": "Ceatatea/WLFWWNCE.wav"
+		}
+	}
+}
+
+
+

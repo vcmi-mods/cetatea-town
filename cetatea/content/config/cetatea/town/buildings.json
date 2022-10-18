@@ -1,0 +1,486 @@
+{
+	"cetatea" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"id" : 4,
+					"upgrades" : "mageGuild4"
+				},
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				"fort" : //sprawdzic koszt fortu
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"gold" : 5000,
+						"wood" : 10,
+						"ore" : 10,
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "allOf",["tavern"] ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : ["castle"] ,
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Resourse Silo provides you with an additional +1 gem each day.",
+					"name" : "Resourse Silo",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				"special1" : 
+				{
+					"description" : "The Blessed Pond produces a small random number of resources each week.",
+					"name" : "Blessed Pond",
+					"type" : "mysticPond",
+					"cost" : 
+					{
+						"wood" : 2,
+						"ore" : 2,
+						"crystal" : 2,
+						"mercury" : 2,
+                    	"gems" : 2,
+						"sulfur" : 2,
+						"gold" : 2000
+					},
+//					"id" : 17
+				},
+				"horde1" :
+				{
+					"description" : "The Forgotten Corridor increases Moroi production by 4 per week.",
+					"name" : "Forgotten Corridor",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingLvl3",
+					"id" : 18	
+				},
+				"horde1Upgr" :
+				{
+					"description" : "The Forgotten Corridor increases Strigoi production by 4 per week.",
+					"name" : "Forgotten Corridor",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"id" : 19,
+					"upgrades" : "dwellingUpLvl3", 
+					"requires" : [ "horde1" ], 
+					"mode" : "auto"
+				},
+				
+				"special3" : 
+				{
+					"description" : "The Zamolxes' Treasure earns you 10% interest of any gold you have at the start of each week.",
+					"name" : "Zamolxes' Treasure",
+					"type" : "treasury",
+					"cost" : 
+					{
+						"wood" : 5,
+						"ore" : 10,
+						"gold" : 5000
+					},
+                    "requires" : [ "allOf", [ "horde1" ], ["horde2" ] ],
+//					"id" : 22
+				},	
+				"horde2" :
+				{
+					"description" : "The Stone Arches increase Werewolves production by 2 per week.",
+					"name" : "Stone Arches",
+					"cost" : 
+					{
+						"gold" : 2000
+					},
+					"upgrades" : "dwellingLvl5",
+					"id" : 24,	
+				},
+				"horde2Upgr" :
+				{
+					"description" : "The Stone Arches increase Alpha Werewolves production by 2 per week.",
+					"name" : "Stone Arches",
+					"cost" : 
+					{
+						"gold" : 2000
+					},
+					"id" : 25,
+					"upgrades" : "dwellingUpLvl5", 
+					"requires" : [ "horde2" ], 
+					"mode" : "auto"
+				},
+				"grail" :
+				{
+                   "description" : "The presence of the Column of Infinity increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day and increases the luck of all allied heroes by +2.",	
+					"name" : "Column of Infinity", 
+                    "produce": { "gold": 5000 },
+					"id" : 26,
+					"mode" : "grail"
+				},
+				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ], "mode" : "auto" },
+				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto" },
+				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ], "mode" : "auto" },
+				"dwellingLvl1" :
+				{
+					"description" : "The Wolf Den allows you to recruit Wolf.",
+					"name" : "Wolf Den",
+					"cost" : 
+					{
+						"gold" : 500,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "The Cursed Ruins allows you to recruit Moroi.",
+					"name" : "Cursed Ruins",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" :["fort"] ,
+					"id" : 31
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "The Forest Lodge allows you to recruit Voinici.",
+					"name" : "Forest Lodge",
+					"cost" : 
+					{
+						"gold" : 1500,
+						"wood" : 10
+					},
+					"requires" :["allOf", ["dwellingLvl1"], ["fort"] ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "The Black Citadel allows you to recruit Vampires.",
+					"name" : "Black Citadel",
+					"cost" : 
+					{
+						"gold" : 2000,
+						"crystal" : 10
+					},
+					"requires" : [ "allOf", ["dwellingLvl2"], ["dwellingLvl3"], ["fort"], ["blacksmith"] ],
+					"id" : 33
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "The Dacic Altar allows you to recruit Werewolves.",
+					"name" : "Dacic Altar",
+					"cost" : 
+					{
+						"gold" : 2500,
+					},
+					"requires" : [ "allOf",["dwellingLvl3"], ["dwellingLvl4"], ["dwellingLvl3"], ["fort"] ],
+					"id" : 34
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "The Zgriptor's Cliffs allow you to recruit Zgriptors.",
+					"name" : "Zgriptor's Cliffs",
+					"cost" : 
+					{
+						"gold" : 4000,
+						"wood" : 5,
+						"ore" : 5,
+						"sulfur" : 10
+					},
+					"requires" : [ "allOf", ["dwellingLvl4"], ["dwellingLvl5"],["mageGuild1"], ["fort"] ],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "The Mighty Grotto allows you to recruit Zmei.",
+					"name" : "Mighty Grotto",
+					"cost" : 
+					{
+						"gold" : 10000,
+						"ore"  : 30,
+						"gems" : 20
+					},
+					"requires" : [ "allOf",[ "dwellingLvl6" ], ["fort"], ["mageGuild2"] ],
+					"id" : 36
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "The Upg. Wolf Den allows you to recruite Dire Wolf.",
+					"name" : "Upg. Wolf Den",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"id" : 37,
+					"requires" :   ["dwellingLvl1"],
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "The Upg. Cursed Ruins allow you to recruite Strigoi.",
+					"name" : "Upg. Cursed Ruins",
+					"cost" :
+					{
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"id" : 38,
+					"requires" :   ["fort"],
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "The Upg. Forest Lodge allows you to recruite Haiduci.",
+					"name" : "Upg. Forest Lodge",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"wood" : 10
+					},
+					"id" : 39,
+					"requires" :   [ "allOf", ["fort"],["dwellingUpLvl1"] ],		
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "The Upg. Black Citadel allows you to recruite Vampire Lords.",
+					"name" : "Upg. Black Citadel",
+					"cost" : 
+					{	
+						"gold" : 2000,
+						"crystal" : 5
+					},
+					"id" : 40,
+                    "requires" :  [ "allOf", ["dwellingUpLvl3"],["fort"] ],
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					
+					"description" : "The Upg. Dacic Altar allows you to recruite Alpha Werewolves.",
+					"name" : "Upg. Dacic Altar",
+					"cost" : 
+					{
+						"gold" : 1500
+					},
+					"id" : 41,
+					"requires" : [ "allOf", ["dwellingLvl6"], ["fort"]],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+					"description" : "The Upg. Zgriptor's Cliffs allows you to recruite Fiercezgriptor.",
+					"name" : "Upg. Zgriptor's Cliffs",
+					"cost" : 
+					{
+						"gold" : 3000,
+						"sulfur" : 5
+					},
+					"id" : 42,
+					"requires" :  [ "allOf", ["dwellingUpLvl5"],["mageGuild2"], ["fort"] ],
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "The Upg. Mighty Grotto allows you to recruite Balauri.",
+					"name" : "Upg. Mighty Grotto",
+					"cost" : 
+					{
+						"ore" : 30,
+						"gold" : 20000,
+						"gems" : 20
+					},
+					"id" : 43,
+					"requires" :  [ "allOf", ["dwellingUpLvl4"],["mageGuild3"], ["fort"] ],
+					"upgrades" : "dwellingLvl7"
+				}
+			}
+		}
+	}
+}
