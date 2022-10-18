@@ -8,7 +8,7 @@
 	"changelog" :
     {
         "2.12"   : [ "Special buildings support" ],
-		"2.11"   : [ "New hero specialty format", "New hero portraits" ],
+		"2.11"   : [ "New hero specialty format", "New hero portraits" ]
 	},
 	"factions" :
 	[
