@@ -42,8 +42,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"abilities":
@@ -66,7 +65,7 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING", "val" : 0, "valueType" : "ADDITIVE_VALUE"
 			},
 			"receptive" :
 			{

@@ -27,10 +27,9 @@
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
 			},
 			"missile" :
 			{

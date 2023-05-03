@@ -3,12 +3,12 @@
 	{
 		"types" : 
 		{
-			"AncientCitadel" : 
+			"ancientCitadel" : 
 			{
 				"name" : "Ancient Citadel",
 				"templates" : {
 					"base" : { "animation" : "cetatea/map/banks/AncientCitadel.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVV", "VVVB", "BBBB", "BBAB"], 
 					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
 					}

@@ -96,7 +96,7 @@
 					},
 					"id" : 5
 				},
-				"fort" : //sprawdzic koszt fortu
+				"fort" :
 				{
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
@@ -128,7 +128,7 @@
 					{
 						"gold" : 5000,
 						"wood" : 10,
-						"ore" : 10,
+						"ore" : 10
 					},
 					"id" : 9,
 					"upgrades" : "citadel"
@@ -224,7 +224,7 @@
                     	"gems" : 2,
 						"sulfur" : 2,
 						"gold" : 2000
-					},
+					}
 //					"id" : 17
 				},
 				"horde1" :
@@ -263,7 +263,7 @@
 						"ore" : 10,
 						"gold" : 5000
 					},
-                    "requires" : [ "allOf", [ "horde1" ], ["horde2" ] ],
+                    "requires" : [ "allOf", [ "horde1" ], ["horde2" ] ]
 //					"id" : 22
 				},	
 				"horde2" :
@@ -275,7 +275,7 @@
 						"gold" : 2000
 					},
 					"upgrades" : "dwellingLvl5",
-					"id" : 24,	
+					"id" : 24
 				},
 				"horde2Upgr" :
 				{
@@ -295,12 +295,13 @@
                    "description" : "The presence of the Column of Infinity increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day and increases the luck of all allied heroes by +2.",	
 					"name" : "Column of Infinity", 
                     "produce": { "gold": 5000 },
+					"bonuses": [ { "type": "LUCK", "val": 2, "propagator" : "TEAM_PROPAGATOR" } ],
 					"id" : 26,
 					"mode" : "grail"
 				},
-				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ], "mode" : "auto" },
-				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto" },
-				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ], "mode" : "auto" },
+				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ], "mode" : "auto", "name" : "Town Hall", "description" : "Town Hall" },
+				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto", "name" : "City Hall", "description" : "City Hall" },
+				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ], "mode" : "auto", "name" : "Capitol", "description" : "Capitol"},
 				"dwellingLvl1" :
 				{
 					"description" : "The Wolf Den allows you to recruit Wolf.",
@@ -356,7 +357,7 @@
 					"name" : "Dacic Altar",
 					"cost" : 
 					{
-						"gold" : 2500,
+						"gold" : 2500
 					},
 					"requires" : [ "allOf",["dwellingLvl3"], ["dwellingLvl4"], ["dwellingLvl3"], ["fort"] ],
 					"id" : 34

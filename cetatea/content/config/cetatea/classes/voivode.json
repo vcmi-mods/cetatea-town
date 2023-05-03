@@ -7,9 +7,8 @@
 			"battle" : 
 			{
                 "male"   : "cetatea/battle/CH22.def",
-				"female" : "cetatea/battle/CH23.def"
-				
-			},
+				"female" : "cetatea/battle/CH23.def"	
+			}
 		},
 		"mapObject" : {
 			"templates" : {

@@ -3,11 +3,16 @@
 	"description" : "New town in Romanian Style",
 	"author": "LizardWarrior, József Csanádi, Planet Avril, avatar, acidchalk",
 	"contact": "http://heroescommunity.com/viewthread.php3?TID=36219",
-	"version" : "2.12",
+	"version" : "2.13",
 	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
 	"changelog" :
     {
-        "2.12"   : [ "Special buildings support" ],
+        "2.13"   : [ "Update to vcmi-1.2", "Tower icons added" ],
+		"2.12"   : [ "Special buildings support" ],
 		"2.11"   : [ "New hero specialty format", "New hero portraits" ]
 	},
 	"factions" :
@@ -20,7 +25,7 @@
 	"config/cetatea/town/structures.json"
 	],
     "creatures" :
-        [
+    [
 	"config/cetatea/creatures/Alphawerewolf.json",
 	"config/cetatea/creatures/Werewolf.json",
 	"config/cetatea/creatures/Direwolf.json",

@@ -6,6 +6,8 @@
 			"siege" :
 			{
 				"shooter" : "cHaiduci",
+				"towerIconSmall" : "cetatea/icons/arrowtowersmall",
+				"towerIconLarge" : "cetatea/icons/arrowtowerslarge",
 				"imagePrefix" : "cetatea/siege/SGRM",
 				"gate" :
 				{
