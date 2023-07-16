@@ -3,15 +3,22 @@
 	"description" : "New town in Romanian Style",
 	"author": "LizardWarrior, József Csanádi, Planet Avril, avatar, acidchalk",
 	"contact": "http://heroescommunity.com/viewthread.php3?TID=36219",
-	"version" : "2.13",
+	"version" : "2.14",
 	"modType" : "Town",
 	"compatibility" :
 	{
 		"min" : "1.2.0"
 	},
+	"chinese" : {
+		"name" : "血堡",
+		"translations" : [
+			"translation/cetatea/chinese.json"
+		]
+	},
 	"changelog" :
-    {
-        "2.13"   : [ "Update to vcmi-1.2", "Tower icons added" ],
+    	{
+		"2.14"  : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+        	"2.13"   : [ "Update to vcmi-1.2", "Tower icons added" ],
 		"2.12"   : [ "Special buildings support" ],
 		"2.11"   : [ "New hero specialty format", "New hero portraits" ]
 	},
