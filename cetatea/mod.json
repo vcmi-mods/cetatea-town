@@ -15,6 +15,13 @@
 			"translation/cetatea/chinese.json"
 		]
 	},
+	"german" : {
+		"name" : "Cetatea",
+		"description" : "Neue Stadt im rumänischen Stil",
+		"translations" : [
+			"translation/cetatea/german.json"
+		]
+	},
 	"changelog" :
     	{
 		"2.14"  : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
