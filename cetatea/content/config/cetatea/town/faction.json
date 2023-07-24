@@ -3,6 +3,7 @@
 	{
 		"name" : "Cetatea",
 		"nativeTerrain" : "grass",
+		"boat" : "boatCastle",
 		"alignment" : "good",
 		"creatureBackground" :
 		{
@@ -112,7 +113,7 @@
 			"guildWindow": "cetatea/town-screen/mage-guild.bmp",
 			"buildingsIcons": "cetatea/town-hall.def",
 			"hallBackground": "TPTHBKFR.bmp",
-                          "primaryResource" : "gems",
+            "primaryResource" : "gems",
 			"hallSlots":
 			[
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
@@ -132,6 +133,7 @@
 				["cZmeu", "cBalauri"]
 			],
 			"horde" : [ 1, 4 ],
+			"moatAbility" : "cetateaMoat",			
 			"icons" : {
 				"fort" : {
 					"built" : {
@@ -150,8 +152,6 @@
                         },
 			"mageGuild" : 5,
 			"warMachine" : "firstAidTent",
-			"moatDamage" : 90,
-			"moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
 			"names" : [
 				"Targoviste",
 				"Cluj",
