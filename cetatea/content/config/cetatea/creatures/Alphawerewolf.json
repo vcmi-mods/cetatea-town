@@ -49,13 +49,13 @@
 			"transmutation" :
 			{
 				"type" : "TRANSMUTATION",
-				"val" : 20,  //20% chance of transumutation
-				"subtype" : 0 //ressurection based on HP
+				"val" : 20,
+				"subtype" : "transmutationPerHealth"
 			}
 		},	
 		"sound" :
 		{
-						"attack": "Ceatatea/wolfattk.wav",
+			"attack": "Ceatatea/wolfattk.wav",
 			"defend": "Ceatatea/alwfdfnd.wav",
 			"killed": "Ceatatea/wolfkill.wav",
 			"move": "Ceatatea/wolfmove.wav",

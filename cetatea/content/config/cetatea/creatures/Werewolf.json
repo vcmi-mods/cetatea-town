@@ -50,8 +50,8 @@
 		"transmutation" :
 			{
 				"type" : "TRANSMUTATION",
-				"val" : 10,  //10% chance of transumutation
-				"subtype" : 0 //ressurection based on HP
+				"val" : 10,
+				"subtype" : "transmutationPerHealth"
 			}
 		},	
 		"sound" :

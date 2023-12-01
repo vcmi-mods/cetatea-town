@@ -47,8 +47,7 @@
 		{
 			"noRetalitation" : 
 			{
-				"type" : "BLOCKS_RETALIATION",
-				"subtype" : 1
+				"type" : "BLOCKS_RETALIATION"
 			},
 			"drainsLife" :
 			{
@@ -61,7 +60,8 @@
 			},
 			"flying" :
 			{
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			}			
 		},	
 		"sound" :
