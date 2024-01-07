@@ -207,5 +207,13 @@
 	"hero.cetatea-town.vladtepes.specialty.name" : "血族领主",
 	"hero.cetatea-town.vladtepes.specialty.tooltip" : "{Vampires and Vampire Lords}\r\n\r\nIncrease the stats of Vampires and Vampire Lords: +5 Atk, +6 Def, +5 Dmg",
 	"heroClass.cetatea-town.ovate.name" : "国相",
-	"heroClass.cetatea-town.voivode.name" : "总督"
+	"heroClass.cetatea-town.voivode.name" : "总督",
+    "mapObject.cetatea-town.creatureBank.ancientCitadel.name": "达西亚古堡",
+    "mapObject.cetatea-town.creatureGeneratorCommon.dw1.name": "狼窝",
+    "mapObject.cetatea-town.creatureGeneratorCommon.dw2.name": "瘟疫废墟",
+    "mapObject.cetatea-town.creatureGeneratorCommon.dw3.name": "森林小屋",
+    "mapObject.cetatea-town.creatureGeneratorCommon.dw4.name": "黑暗城堡",
+    "mapObject.cetatea-town.creatureGeneratorCommon.dw5.name": "达西亚祭坛",
+    "mapObject.cetatea-town.creatureGeneratorCommon.dw6.name": "狮鹫峭壁",
+    "mapObject.cetatea-town.creatureGeneratorCommon.dw7.name": "龙力石窟"
 }
