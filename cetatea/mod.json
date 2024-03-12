@@ -3,7 +3,7 @@
 	"description" : "Town in Romanian Style",
 	"author": "LizardWarrior, József Csanádi, Planet Avril, avatar, acidchalk",
 	"contact": "http://heroescommunity.com/viewthread.php3?TID=36219",
-	"version" : "2.18",
+	"version" : "2.19",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -23,8 +23,16 @@
 			"translation/cetatea/german.json"
 		]
 	},
+	"polish" : {
+		"name" : "Cetatea",
+		"description" : "Nowe miasto oparte na rumuńskim folklorze",
+		"translations" : [
+			"translation/cetatea/polish.json"
+		]
+	},
 	"changelog" :
     {
+		"2.19"  : [ "Added polish translation by FallainBlack" ],
 		"2.18"  : [ "Added the creatures' stackExp and fixed the commander" ],
 		"2.17"  : [ "Adjusted Commanders stats" ],
 		"2.16"  : [ "Update to vcmi-1.4" ],
