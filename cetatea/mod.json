@@ -11,7 +11,7 @@
 	},
 	"chinese" : {
 		"name" : "血堡",
-		"description" : "血堡",
+		"description" : "血堡是一个罗马尼亚风格的种族，兵种来源自罗马尼亚神话与传说。",
 		"translations" : [
 			"translation/cetatea/chinese.json"
 		]
