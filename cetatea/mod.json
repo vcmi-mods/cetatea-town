@@ -3,7 +3,7 @@
 	"description" : "Town in Romanian Style",
 	"author": "LizardWarrior, József Csanádi, Planet Avril, avatar, acidchalk",
 	"contact": "http://heroescommunity.com/viewthread.php3?TID=36219",
-	"version" : "2.22",
+	"version" : "2.23",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -30,8 +30,16 @@
 			"translation/cetatea/polish.json"
 		]
 	},
+	"russian" : {
+		"name" : "Cetatea (Крепость)",
+		"description" : "Новый город, основанный на румынском фольклоре",
+		"translations" : [
+			"translation/cetatea/russian.json"
+		]
+	},
 	"changelog" :
 	{
+		"2.23"  : [ "Added russian translation" ],
 		"2.22"  : [ "Update to vcmi-1.6 format" ],
 		"2.21"  : [ "Fixed possible crash on starting new map" ],
 		"2.20"  : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
