@@ -1,25 +1,33 @@
 {
-	"brancoveanu" :
-	{
+	"brancoveanu" : {
 		"class" : "voivode",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/brancoveanu/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/brancoveanu/spec-large.png",
 			"large" : "cetatea/heroes/brancoveanu/portrait-large.bmp",
 			"small" : "cetatea/heroes/brancoveanu/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 15, "max" : 30 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
-			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 15,
+				"max" : 30
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 2,
+				"max" : 3
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "leadership"
@@ -29,11 +37,10 @@
 				"skill" : "diplomacy"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Brancoveanu",
 			"biography" : "Constantin Brâncoveanu (Romanian pronunciation: 1654 – August 15, 1714) was Prince of Wallachia between 1688 and 1714.",
-		
+
 			"specialty" : {
 				"description" : "Increases kingdom's gems production by 1 per day.",
 				"name" : "+1 Gem",
@@ -51,5 +58,3 @@
 		}
 	}
 }
-
-

@@ -1,25 +1,33 @@
 {
-	"elisabeta" :
-	{
+	"elisabeta" : {
 		"class" : "voivode",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/elisabeta/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/elisabeta/spec-large.png",
 			"large" : "cetatea/heroes/elisabeta/portrait-large.bmp",
 			"small" : "cetatea/heroes/elisabeta/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 18, "max" : 29 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
-			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 18,
+				"max" : 29
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 2,
+				"max" : 3
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -29,11 +37,10 @@
 				"skill" : "archery"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Elisabeta",
 			"biography" : "Pauline Elisabeth Ottilie Luise zu Wied (29 December 1843 – 3 March/2 November 1916) was the Queen consort of Romania as the wife of King Carol I of Romania, widely known by her literary name of Carmen Sylva.",
-		
+
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"name" : "Logistics",
@@ -45,5 +52,3 @@
 		}
 	}
 }
-
-

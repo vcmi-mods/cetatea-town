@@ -1,25 +1,33 @@
 {
-	"vladtepes" :
-	{
+	"vladtepes" : {
 		"class" : "voivode",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/vladtepes/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/vladtepes/spec-large.png",
 			"large" : "cetatea/heroes/vladtepes/portrait-large.bmp",
 			"small" : "cetatea/heroes/vladtepes/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cMoroi", "min" : 3, "max" : 7 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  7 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  7 }
+		"army" : [
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 7
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 7
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 7
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "resistance"
@@ -29,11 +37,10 @@
 				"skill" : "luck"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Vlad Tepes",
 			"biography" : "Vlad Tepes more commonly known as Dracula, was a three-time Voivode of Wallachia, ruling mainly from 1456 to 1462.His favourite executing method was impaling.",
-		
+
 			"specialty" : {
 				"description" : "Increase the stats of Vampires and Vampire Lords: +5 Atk, +6 Def, +5 Dmg",
 				"name" : "Blood Lords",
@@ -45,5 +52,3 @@
 		}
 	}
 }
-
-

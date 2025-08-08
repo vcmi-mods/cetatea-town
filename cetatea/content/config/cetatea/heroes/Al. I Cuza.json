@@ -1,44 +1,43 @@
 {
-	"alicuza" :
-	{
+	"alicuza" : {
 		"class" : "voivode",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/alicuza/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/alicuza/spec-large.png",
 			"large" : "cetatea/heroes/alicuza/portrait-large.bmp",
 			"small" : "cetatea/heroes/alicuza/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 30, "max" : 44 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  7 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 30,
+				"max" : 44
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 7
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "diplomacy"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Al. I Cuza",
 			"biography" : "Alexandru Ioan Cuza  was a Moldavian-born Romanian politician who ruled as the first Domnitor of the United Principalities of Wallachia and Moldavia between 1859 and 1866.",
-		
+
 			"specialty" : {
 				"description" : "Starts with Advanced Diplomacy.",
 				"name" : "Diplomacy",
 				"tooltip" : "Starts with Advanced Diplomacy."
 			}
 		},
-		"specialty": 
-		{
-		}
+		"specialty" : {}
 	}
 }
-
-

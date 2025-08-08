@@ -1,24 +1,20 @@
 {
-	"cBalauri":
-	{
-		"name" :
-		{
+	"cBalauri" : {
+		"name" : {
 			"plural" : "Balauris",
 			"singular" : "Balaur"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
 		},
 		"faction" : "cetatea",
 		"level" : 7,
 		"attack" : 24,
 		"defense" : 26,
-		"damage" :
-		{
-			 "min" : 35,
-			 "max" : 50
+		"damage" : {
+			"min" : 35,
+			"max" : 50
 		},
 		"growth" : 1,
 		"hitPoints" : 250,
@@ -26,124 +22,180 @@
 		"fightValue" : 11919,
 		"aiValue" : 15294,
 		"doubleWide" : true,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 4000,
 			"gems" : 2
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cetatea/creatures/battle/balauri.def",
 			"map" : "cetatea/creatures/map/balauri.def",
 			"iconSmall" : "cetatea/creatures/iconsSmall/balauri.bmp",
 			"iconLarge" : "cetatea/creatures/iconsBig/balauri.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities":
-		{
-			"canFly" :
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"noRetaliation" : 
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0,
 				"description" : "{Fearless}\nImmune to Fear ability",
 				"icon" : "cetatea/icons/bonuses/e_fearl.png"
 			},
-			"attackAll" :
-			{
+			"attackAll" : {
 				"type" : "ATTACKS_ALL_ADJACENT"
 			},
-			"king1" :
-			{
-				"type" : "KING", "val" : 0, "valueType" : "ADDITIVE_VALUE"
+			"king1" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			},
-			"receptive" :
-			{
+			"receptive" : {
 				"type" : "RECEPTIVE",
 				"val" : 1
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					50,
+					50,
+					50,
+					50,
+					50,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			}
-		],	
-		"sound" :
-		{
-			"attack": "Ceatatea/GORYATTK.wav",
-			"defend": "Ceatatea/GORYDFND.wav",
-			"killed": "Ceatatea/GORYKILL.wav",
-			"move": "Ceatatea/GORYMOVE.wav",
-			"wince": "Ceatatea/GORYWNCE.wav"
+		],
+		"sound" : {
+			"attack" : "Ceatatea/GORYATTK.wav",
+			"defend" : "Ceatatea/GORYDFND.wav",
+			"killed" : "Ceatatea/GORYKILL.wav",
+			"move" : "Ceatatea/GORYMOVE.wav",
+			"wince" : "Ceatatea/GORYWNCE.wav"
 		}
 	}
 }
-
-
-

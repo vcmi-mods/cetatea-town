@@ -1,12 +1,11 @@
 {
 	"name" : "Cetatea",
 	"description" : "Town in Romanian Style",
-	"author": "LizardWarrior, József Csanádi, Planet Avril, avatar, acidchalk",
-	"contact": "http://heroescommunity.com/viewthread.php3?TID=36219",
+	"author" : "LizardWarrior, József Csanádi, Planet Avril, avatar, acidchalk",
+	"contact" : "http://heroescommunity.com/viewthread.php3?TID=36219",
 	"version" : "2.25",
 	"modType" : "Town",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"chinese" : {
@@ -37,82 +36,106 @@
 			"translation/cetatea/russian.json"
 		]
 	},
-	"changelog" :
-	{
-		"2.25"  : [ "Update to vcmi-1.7 format" ],
-		"2.24"  : [ "Updated polish translation" ],
-		"2.23"  : [ "Added russian translation" ],
-		"2.22"  : [ "Update to vcmi-1.6 format" ],
-		"2.21"  : [ "Fixed possible crash on starting new map" ],
-		"2.20"  : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
-		"2.19"  : [ "Added polish translation by FallainBlack" ],
-		"2.18"  : [ "Added the creatures' stackExp and fixed the commander" ],
-		"2.17"  : [ "Adjusted Commanders stats" ],
-		"2.16"  : [ "Update to vcmi-1.4" ],
-		"2.15"  : [ "Update to vcmi-1.3" ],
-		"2.14"  : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-        "2.13"  : [ "Update to vcmi-1.2", "Tower icons added" ],
-		"2.12"  : [ "Special buildings support" ],
-		"2.11"  : [ "New hero specialty format", "New hero portraits" ]
+	"changelog" : {
+		"2.25" : [
+			"Update to vcmi-1.7 format"
+		],
+		"2.24" : [
+			"Updated polish translation"
+		],
+		"2.23" : [
+			"Added russian translation"
+		],
+		"2.22" : [
+			"Update to vcmi-1.6 format"
+		],
+		"2.21" : [
+			"Fixed possible crash on starting new map"
+		],
+		"2.20" : [
+			"New town theme by Fabrice-TIERCELIN and AI Udio"
+		],
+		"2.19" : [
+			"Added polish translation by FallainBlack"
+		],
+		"2.18" : [
+			"Added the creatures' stackExp and fixed the commander"
+		],
+		"2.17" : [
+			"Adjusted Commanders stats"
+		],
+		"2.16" : [
+			"Update to vcmi-1.4"
+		],
+		"2.15" : [
+			"Update to vcmi-1.3"
+		],
+		"2.14" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"2.13" : [
+			"Update to vcmi-1.2",
+			"Tower icons added"
+		],
+		"2.12" : [
+			"Special buildings support"
+		],
+		"2.11" : [
+			"New hero specialty format",
+			"New hero portraits"
+		]
 	},
-	"factions" :
-	[
-	
-	"config/cetatea/town/buildings.json",
-	"config/cetatea/town/faction.json",
-	"config/cetatea/town/puzzle.json",
-	"config/cetatea/town/siege.json",
-	"config/cetatea/town/structures.json"
+	"factions" : [
+		"config/cetatea/town/buildings.json",
+		"config/cetatea/town/faction.json",
+		"config/cetatea/town/puzzle.json",
+		"config/cetatea/town/siege.json",
+		"config/cetatea/town/structures.json"
 	],
-    "creatures" :
-    [
-	"config/cetatea/creatures/Alphawerewolf.json",
-	"config/cetatea/creatures/Werewolf.json",
-	"config/cetatea/creatures/Direwolf.json",
-	"config/cetatea/creatures/Fiercezgriptor.json",
-	"config/cetatea/creatures/Balauri.json",
-	"config/cetatea/creatures/Haiduci.json",
-	"config/cetatea/creatures/Moroi.json",
-	"config/cetatea/creatures/Strigoi.json",
-	"config/cetatea/creatures/Vampire.json",
-	"config/cetatea/creatures/Vampirelord.json",
-	"config/cetatea/creatures/Wolf.json",
-	"config/cetatea/creatures/Voinici.json",
-	"config/cetatea/creatures/Zgriptor.json",
-	"config/cetatea/creatures/Zmeu.json",
-	"config/cetatea/creatures/lele.json"
-        ],
-	"heroClasses" :
-	[
-	"config/cetatea/classes/ovate.json",
-	"config/cetatea/classes/voivode.json"
+	"creatures" : [
+		"config/cetatea/creatures/Alphawerewolf.json",
+		"config/cetatea/creatures/Werewolf.json",
+		"config/cetatea/creatures/Direwolf.json",
+		"config/cetatea/creatures/Fiercezgriptor.json",
+		"config/cetatea/creatures/Balauri.json",
+		"config/cetatea/creatures/Haiduci.json",
+		"config/cetatea/creatures/Moroi.json",
+		"config/cetatea/creatures/Strigoi.json",
+		"config/cetatea/creatures/Vampire.json",
+		"config/cetatea/creatures/Vampirelord.json",
+		"config/cetatea/creatures/Wolf.json",
+		"config/cetatea/creatures/Voinici.json",
+		"config/cetatea/creatures/Zgriptor.json",
+		"config/cetatea/creatures/Zmeu.json",
+		"config/cetatea/creatures/lele.json"
 	],
-    "heroes" :
-    [
-	"config/cetatea/heroes/Al. I Cuza.json",
-	"config/cetatea/heroes/Baba Cloanta.json",
-	"config/cetatea/heroes/Brancoveanu.json",
-	"config/cetatea/heroes/Decebal.json",
-	"config/cetatea/heroes/Dochia.json",
-	"config/cetatea/heroes/Elisabeta.json",
-	"config/cetatea/heroes/Ghionaia.json",
-	"config/cetatea/heroes/Greuceanu.json",
-	"config/cetatea/heroes/Harap-alb.json",
-	"config/cetatea/heroes/Luceafarul.json",
-	"config/cetatea/heroes/Mihaiviteazu.json",
-	"config/cetatea/heroes/Pricolici.json",
-	"config/cetatea/heroes/Queen Elena.json",
-	"config/cetatea/heroes/Queen Maria.json",
-	"config/cetatea/heroes/Stefan Al II.json",
-	"config/cetatea/heroes/Vlad Tepes.json"
-    ],
-    "objects" :
-    [
-    "config/cetatea/creatures/dwellings.json",
-	"config/cetatea/banks/AncientCitadel.json" 
+	"heroClasses" : [
+		"config/cetatea/classes/ovate.json",
+		"config/cetatea/classes/voivode.json"
 	],
-    "spells" :
-    [
-    "config/cetatea/spells/moat.json" 
+	"heroes" : [
+		"config/cetatea/heroes/Al. I Cuza.json",
+		"config/cetatea/heroes/Baba Cloanta.json",
+		"config/cetatea/heroes/Brancoveanu.json",
+		"config/cetatea/heroes/Decebal.json",
+		"config/cetatea/heroes/Dochia.json",
+		"config/cetatea/heroes/Elisabeta.json",
+		"config/cetatea/heroes/Ghionaia.json",
+		"config/cetatea/heroes/Greuceanu.json",
+		"config/cetatea/heroes/Harap-alb.json",
+		"config/cetatea/heroes/Luceafarul.json",
+		"config/cetatea/heroes/Mihaiviteazu.json",
+		"config/cetatea/heroes/Pricolici.json",
+		"config/cetatea/heroes/Queen Elena.json",
+		"config/cetatea/heroes/Queen Maria.json",
+		"config/cetatea/heroes/Stefan Al II.json",
+		"config/cetatea/heroes/Vlad Tepes.json"
+	],
+	"objects" : [
+		"config/cetatea/creatures/dwellings.json",
+		"config/cetatea/banks/AncientCitadel.json"
+	],
+	"spells" : [
+		"config/cetatea/spells/moat.json"
 	]
 }

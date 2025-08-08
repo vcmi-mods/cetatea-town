@@ -1,136 +1,200 @@
 {
-	"cFiercezgriptor":
-	{
-		"name" :
-		{
+	"cFiercezgriptor" : {
+		"name" : {
 			"plural" : "Fierce Zgriptori",
 			"singular" : "Fierce Zgriptor"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "cetatea",
 		"level" : 6,
 		"attack" : 15,
 		"defense" : 17,
-		"damage" :
-		{
-			 "min" : 17,
-			 "max" : 24
+		"damage" : {
+			"min" : 17,
+			"max" : 24
 		},
 		"growth" : 2,
 		"hitPoints" : 120,
 		"speed" : 11,
 		"fightValue" : 2071,
 		"aiValue" : 2469,
-            "doubleWide" : true,
-		"cost" :
-		{
+		"doubleWide" : true,
+		"cost" : {
 			"gold" : 1400
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cetatea/creatures/battle/fiercezgriptor.def",
 			"map" : "cetatea/creatures/map/fiercezgriptor.def",
 			"iconSmall" : "cetatea/creatures/iconsSmall/fiercezgriptor.bmp",
 			"iconLarge" : "cetatea/creatures/iconsBig/fiercezgriptor.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities":
-		{
-			"increaseManaCost" :
-			{
+		"abilities" : {
+			"increaseManaCost" : {
 				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
 				"val" : 2
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING"
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "RETURN_AFTER_STRIKE"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "BLOCKS_RETALIATION"
 				},
-				"values" : [ false, false, false, false, false, false, false, false, false, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true
+				]
 			}
-		],	
-		"sound" :
-		{
-			"attack": "Ceatatea/DBSTATTK.wav",
-			"defend": "Ceatatea/FDBSDFND.wav",
-			"killed": "Ceatatea/DBSTKILL.wav",
-			"move": "Ceatatea/FDBSMOVE.wav",
-			"wince": "Ceatatea/DBSTWNCE.wav"
+		],
+		"sound" : {
+			"attack" : "Ceatatea/DBSTATTK.wav",
+			"defend" : "Ceatatea/FDBSDFND.wav",
+			"killed" : "Ceatatea/DBSTKILL.wav",
+			"move" : "Ceatatea/FDBSMOVE.wav",
+			"wince" : "Ceatatea/DBSTWNCE.wav"
 		}
 	}
 }
-
-
-

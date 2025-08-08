@@ -1,46 +1,38 @@
 {
-	"cIele":
-	{
-		"name" :
-		{
+	"cIele" : {
+		"name" : {
 			"plural" : "Ieles",
 			"singular" : "Iele"
 		},
 		"faction" : "cetatea",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 156,
 		"special" : true,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
-		"cost" :
-		{
-			 "gold" : 1500
-		},		
+		"cost" : {
+			"gold" : 1500
+		},
 		"defense" : 5,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cetatea/creatures/battle/lele.def",
-//			"map" : "cetatea/creatures/map/lele.def",
+			//			"map" : "cetatea/creatures/map/lele.def",
 			"iconSmall" : "cetatea/creatures/iconsSmall/lele.bmp",
 			"iconLarge" : "cetatea/creatures/iconsBig/lele.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "cetatea/creatures/projectile/CPRGOGX.def",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -48,49 +40,54 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : false,
 		"growth" : 9,
 		"hitPoints" : 40,
-		"shots"	: 24,
-		"sound" :
-		{
-			"attack": "Ceatatea/IELEATTK.wav",
-			"defend": "Ceatatea/IELEDFND.wav",
-			"killed": "Ceatatea/IELEKILL.wav",
-			"move": "Ceatatea/IELEMOVE.wav",
-			"wince": "Ceatatea/IELEWNCE.wav",
-            "shoot": "Ceatatea/IELESHOT.wav"
+		"shots" : 24,
+		"sound" : {
+			"attack" : "Ceatatea/IELEATTK.wav",
+			"defend" : "Ceatatea/IELEDFND.wav",
+			"killed" : "Ceatatea/IELEKILL.wav",
+			"move" : "Ceatatea/IELEMOVE.wav",
+			"wince" : "Ceatatea/IELEWNCE.wav",
+			"shoot" : "Ceatatea/IELESHOT.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "bless",
 				"val" : 3

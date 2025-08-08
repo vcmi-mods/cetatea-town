@@ -1,24 +1,32 @@
 {
-	"pricolici" :
-	{
+	"pricolici" : {
 		"class" : "ovate",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/pricolici/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/pricolici/spec-large.png",
 			"large" : "cetatea/heroes/pricolici/portrait-large.bmp",
 			"small" : "cetatea/heroes/pricolici/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 15, "max" : 30 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
-			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 15,
+				"max" : 30
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 2,
+				"max" : 3
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "intelligence"
@@ -28,12 +36,13 @@
 				"skill" : "wisdom"
 			}
 		],
-		"spellbook" : ["forceField"],
-		"texts" :
-		{
+		"spellbook" : [
+			"forceField"
+		],
+		"texts" : {
 			"name" : "Pricolici",
 			"biography" : "",
-		
+
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"name" : "Intelligence",
@@ -45,5 +54,3 @@
 		}
 	}
 }
-
-

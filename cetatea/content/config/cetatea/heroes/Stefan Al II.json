@@ -1,24 +1,28 @@
 {
-	"stefanalII" :
-	{
+	"stefanalII" : {
 		"class" : "ovate",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/stefanalII/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/stefanalII/spec-large.png",
 			"large" : "cetatea/heroes/stefanalII/portrait-large.bmp",
 			"small" : "cetatea/heroes/stefanalII/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 15, "max" : 34 },
-			{ "creature" : "cVoinici", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 15,
+				"max" : 34
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"
@@ -28,12 +32,13 @@
 				"skill" : "offence"
 			}
 		],
-		"spellbook" : ["prayer"],
-		"texts" :
-		{
+		"spellbook" : [
+			"prayer"
+		],
+		"texts" : {
 			"name" : "Stefan III",
 			"biography" : "Stephen III of Moldavia (also known as Stefan the Great or Stefan the Great and Holy; 1433, Borze?ti – July 2, 1504) was Prince of Moldavia between 1457 and 1504 and the most prominent representative of the House of Mu?at.",
-		
+
 			"specialty" : {
 				"description" : "Casts Prayer with increased effect, based on hero level compared to the level of the target unit.",
 				"name" : "Prayer",
@@ -51,5 +56,3 @@
 		}
 	}
 }
-
-

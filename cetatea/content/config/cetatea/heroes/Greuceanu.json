@@ -1,25 +1,33 @@
 {
-	"greuceanu" :
-	{
+	"greuceanu" : {
 		"class" : "ovate",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/greuceanu/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/greuceanu/spec-large.png",
 			"large" : "cetatea/heroes/greuceanu/portrait-large.bmp",
 			"small" : "cetatea/heroes/greuceanu/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 15, "max" : 30 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
-			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 15,
+				"max" : 30
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 2,
+				"max" : 3
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "scholar"
@@ -29,17 +37,17 @@
 				"skill" : "wisdom"
 			}
 		],
-		"spellbook" : ["slayer"],
-		"texts" :
-		{
+		"spellbook" : [
+			"slayer"
+		],
+		"texts" : {
 			"name" : "Greuceanu",
 			"biography" : "Greuceanu is a young brave man who finds that the Sun and the Moon have been stolen by zmei. After a long fight with the three zmei and their wives (zmeoaice), Greuceanu sets the Sun and the Moon free so the people on Earth have light again.",
-		
+
 			"specialty" : {
 				"description" : "Casts Slayer with increased effect, based on hero level compared to the level of the target unit.",
 				"name" : "Slayer",
 				"tooltip" : "Casts Slayer with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)"
-
 			}
 		},
 		"specialty" : {
@@ -53,5 +61,3 @@
 		}
 	}
 }
-
-

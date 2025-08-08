@@ -1,25 +1,23 @@
 {
-	"cWolf":
-	{
-		"name" :
-		{
+	"cWolf" : {
+		"name" : {
 			"plural" : "Wolves",
 			"singular" : "Wolf"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 50,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
 		},
 		"faction" : "cetatea",
-		"upgrades": ["cDirewolf"],
+		"upgrades" : [
+			"cDirewolf"
+		],
 		"level" : 1,
 		"attack" : 4,
 		"defense" : 3,
-		"damage" :
-		{
-			 "min" : 2,
-			 "max" : 3
+		"damage" : {
+			"min" : 2,
+			"max" : 3
 		},
 		"growth" : 14,
 		"hitPoints" : 7,
@@ -27,95 +25,154 @@
 		"fightValue" : 127,
 		"aiValue" : 115,
 		"doubleWide" : true,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 60
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cetatea/creatures/battle/wolf.def",
 			"map" : "cetatea/creatures/map/wolf.def",
 			"iconSmall" : "cetatea/creatures/iconsSmall/wolf.bmp",
 			"iconLarge" : "cetatea/creatures/iconsBig/wolf.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities":
-		{
-		},
-		"stackExperience" :
- 
-		[
+		"abilities" : {},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "JOUSTING"
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			}
-		],	
-		"sound" :
-		{
-			"attack": "Ceatatea/WLFWATTK.wav",
-			"defend": "Ceatatea/WLFWDFND.wav",
-			"killed": "Ceatatea/WLFWKILL.wav",
-			"move": "Ceatatea/WLFWMOVE.wav",
-			"wince": "Ceatatea/WLFWWNCE.wav"
+		],
+		"sound" : {
+			"attack" : "Ceatatea/WLFWATTK.wav",
+			"defend" : "Ceatatea/WLFWDFND.wav",
+			"killed" : "Ceatatea/WLFWKILL.wav",
+			"move" : "Ceatatea/WLFWMOVE.wav",
+			"wince" : "Ceatatea/WLFWWNCE.wav"
 		}
 	}
 }
-
-
-

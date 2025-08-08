@@ -1,25 +1,33 @@
 {
-	"decebal" :
-	{
+	"decebal" : {
 		"class" : "voivode",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/decebal/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/decebal/spec-large.png",
 			"large" : "cetatea/heroes/decebal/portrait-large.bmp",
 			"small" : "cetatea/heroes/decebal/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 15, "max" : 30 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  7 },
-			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 15,
+				"max" : 30
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 7
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 2,
+				"max" : 3
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "ballistics"
@@ -29,11 +37,10 @@
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Decebal",
 			"biography" : "",
-		
+
 			"specialty" : {
 				"description" : "Increases Speed of any Werewolves or Alpha Werewolves by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"name" : "Werewolves",
@@ -45,5 +52,3 @@
 		}
 	}
 }
-
-

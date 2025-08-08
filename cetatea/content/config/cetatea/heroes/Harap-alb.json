@@ -1,25 +1,33 @@
 {
-	"harapalb" :
-	{
+	"harapalb" : {
 		"class" : "ovate",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/harapalb/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/harapalb/spec-large.png",
 			"large" : "cetatea/heroes/harapalb/portrait-large.bmp",
 			"small" : "cetatea/heroes/harapalb/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 12, "max" : 32 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
-			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 12,
+				"max" : 32
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 2,
+				"max" : 3
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "sorcery"
@@ -29,12 +37,13 @@
 				"skill" : "wisdom"
 			}
 		],
-		"spellbook" : ["iceBolt"],
-		"texts" :
-		{
+		"spellbook" : [
+			"iceBolt"
+		],
+		"texts" : {
 			"name" : "Harap-alb",
 			"biography" : "",
-		
+
 			"specialty" : {
 				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit.",
 				"name" : "Ice Bolt",
@@ -53,5 +62,3 @@
 		}
 	}
 }
-
-

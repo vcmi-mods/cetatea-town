@@ -1,25 +1,23 @@
 {
-	"cVampire":
-	{
-		"name" :
-		{
+	"cVampire" : {
+		"name" : {
 			"plural" : "Nosferatu",
 			"singular" : "Nosferatu"
 		},
-				"advMapAmount" :
-		{
-			 "max" : 20,
-			 "min" : 10
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 10
 		},
 		"faction" : "cetatea",
-		"upgrades": ["cVampirelord"],
+		"upgrades" : [
+			"cVampirelord"
+		],
 		"level" : 4,
 		"attack" : 8,
 		"defense" : 10,
-		"damage" :
-		{
-			 "min" : 5,
-			 "max" : 8
+		"damage" : {
+			"min" : 5,
+			"max" : 8
 		},
 		"growth" : 4,
 		"hitPoints" : 30,
@@ -27,117 +25,184 @@
 		"fightValue" : 495,
 		"aiValue" : 515,
 		"horde" : 2,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 360
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cetatea/creatures/battle/vampire.def",
 			"map" : "cetatea/creatures/map/vampire.def",
 			"iconSmall" : "cetatea/creatures/iconsSmall/vampire.bmp",
 			"iconLarge" : "cetatea/creatures/iconsBig/vampire.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities":
-		{
-			"noRetalitation" : 
-			{
+		"abilities" : {
+			"noRetalitation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"undead" :
-			{
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type" : "ENEMY_DEFENCE_REDUCTION"//shield effect
+				"bonus" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION" //shield effect
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1
+				]
 			}
-		],	
-		"sound" :
-		{
-			"attack": "VAMPATTK.wav",
-			"defend": "VAMPDFND.wav",
-			"killed": "VAMPKILL.wav",
-			"move": "VAMPMOVE.wav",
-			"wince": "VAMPWNCE.wav",
-			"startMoving": "VAMPEXT1.wav",
-			"endMoving": "VAMPEXT2.wav"
+		],
+		"sound" : {
+			"attack" : "VAMPATTK.wav",
+			"defend" : "VAMPDFND.wav",
+			"killed" : "VAMPKILL.wav",
+			"move" : "VAMPMOVE.wav",
+			"wince" : "VAMPWNCE.wav",
+			"startMoving" : "VAMPEXT1.wav",
+			"endMoving" : "VAMPEXT2.wav"
 		}
 	}
 }
-
-
-

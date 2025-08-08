@@ -1,25 +1,23 @@
 {
-	"cZgriptor":
-	{
-		"name" :
-		{
+	"cZgriptor" : {
+		"name" : {
 			"plural" : "Zgriptori",
 			"singular" : "Zgriptor"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
 		},
 		"faction" : "cetatea",
-		"upgrades": ["cFiercezgriptor"],
+		"upgrades" : [
+			"cFiercezgriptor"
+		],
 		"level" : 6,
 		"attack" : 15,
 		"defense" : 15,
-		"damage" :
-		{
-			 "min" : 17,
-			 "max" : 24
+		"damage" : {
+			"min" : 17,
+			"max" : 24
 		},
 		"growth" : 2,
 		"hitPoints" : 120,
@@ -27,104 +25,162 @@
 		"fightValue" : 1930,
 		"aiValue" : 2302,
 		"doubleWide" : true,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cetatea/creatures/battle/zgriptor.def",
 			"map" : "cetatea/creatures/map/zgriptor.def",
 			"iconSmall" : "cetatea/creatures/iconsSmall/zgriptor.bmp",
 			"iconLarge" : "cetatea/creatures/iconsBig/zgriptor.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities":
-		{
-			"increaseManaCost" :
-			{
+		"abilities" : {
+			"increaseManaCost" : {
 				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
 				"val" : 2
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING"
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			}
-		],	
-		"sound" :
-		{
-			"attack": "Ceatatea/DBSTATTK.wav",
-			"defend": "Ceatatea/DBSTDFND.wav",
-			"killed": "Ceatatea/DBSTKILL.wav",
-			"move": "Ceatatea/DBSTMOVE.wav",
-			"wince": "Ceatatea/DBSTWNCE.wav"
+		],
+		"sound" : {
+			"attack" : "Ceatatea/DBSTATTK.wav",
+			"defend" : "Ceatatea/DBSTDFND.wav",
+			"killed" : "Ceatatea/DBSTKILL.wav",
+			"move" : "Ceatatea/DBSTMOVE.wav",
+			"wince" : "Ceatatea/DBSTWNCE.wav"
 		}
 	}
 }
-
-
-

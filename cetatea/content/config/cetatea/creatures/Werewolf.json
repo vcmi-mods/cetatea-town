@@ -1,25 +1,23 @@
 {
-	"cWerewolf": 
-	{
-		"name" :
-		{
+	"cWerewolf" : {
+		"name" : {
 			"plural" : "Werewolves",
 			"singular" : "Werewolf"
 		},
-		"advMapAmount" : 
-		{
-			 "max" : 16,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
 		},
 		"faction" : "cetatea",
-		"upgrades": ["cAlphawerewolf"],
+		"upgrades" : [
+			"cAlphawerewolf"
+		],
 		"level" : 5,
 		"attack" : 12,
 		"defense" : 14,
-		"damage" :
-		{
-			 "min" : 12,
-			 "max" : 15
+		"damage" : {
+			"min" : 12,
+			"max" : 15
 		},
 		"growth" : 3,
 		"horde" : 2,
@@ -27,101 +25,160 @@
 		"speed" : 5,
 		"fightValue" : 650,
 		"aiValue" : 735,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 450
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cetatea/creatures/battle/werewolf.def",
 			"map" : "cetatea/creatures/map/werewolf.def",
 			"iconSmall" : "cetatea/creatures/iconsSmall/werewolf.bmp",
 			"iconLarge" : "cetatea/creatures/iconsBig/werewolf.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities":
-		{
-		"transmutation" :
-			{
+		"abilities" : {
+			"transmutation" : {
 				"type" : "TRANSMUTATION",
 				"val" : 10,
 				"subtype" : "transmutationPerHealth"
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40]
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
 			}
-		],	
-		"sound" :
-		{
-			"attack": "Ceatatea/wolfattk.wav",
-			"defend": "Ceatatea/wolfdfnd.wav",
-			"killed": "Ceatatea/wolfkill.wav",
-			"move": "Ceatatea/wolfmove.wav",
-			"wince": "Ceatatea/wolfwnce.wav"
+		],
+		"sound" : {
+			"attack" : "Ceatatea/wolfattk.wav",
+			"defend" : "Ceatatea/wolfdfnd.wav",
+			"killed" : "Ceatatea/wolfkill.wav",
+			"move" : "Ceatatea/wolfmove.wav",
+			"wince" : "Ceatatea/wolfwnce.wav"
 		}
 	}
 }
-
-
-

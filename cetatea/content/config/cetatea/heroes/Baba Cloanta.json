@@ -1,25 +1,33 @@
 {
-	"babacloanta" :
-	{
+	"babacloanta" : {
 		"class" : "ovate",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cetatea/heroes/babacloanta/spec-small.png",
 			"specialtyLarge" : "cetatea/heroes/babacloanta/spec-large.png",
 			"large" : "cetatea/heroes/babacloanta/portrait-large.bmp",
 			"small" : "cetatea/heroes/babacloanta/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cWolf", "min" : 15, "max" : 29 },
-			{ "creature" : "cMoroi", "min" :  3, "max" :  5 },
-			{ "creature" : "cVoinici", "min" :  2, "max" :  3 }
+		"army" : [
+			{
+				"creature" : "cWolf",
+				"min" : 15,
+				"max" : 29
+			},
+			{
+				"creature" : "cMoroi",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cVoinici",
+				"min" : 2,
+				"max" : 3
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "luck"
@@ -29,13 +37,14 @@
 				"skill" : "wisdom"
 			}
 		],
-		
-		"spellbook" : ["fortune"],
-		"texts" :
-		{
+
+		"spellbook" : [
+			"fortune"
+		],
+		"texts" : {
 			"name" : "Baba Cloanta",
 			"biography" : "",
-		
+
 			"specialty" : {
 				"description" : "Casts Fortune with increased effect, based on hero level compared to the level of the target unit.",
 				"name" : "Fortune",
@@ -53,5 +62,3 @@
 		}
 	}
 }
-
-
