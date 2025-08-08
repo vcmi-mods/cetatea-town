@@ -16,6 +16,10 @@
 			 "max" : 12,
 			 "min" : 6
 		},
+		"cost" :
+		{
+			 "gold" : 1500
+		},		
 		"defense" : 5,
 		"fightValue" : 130,
 		"graphics" :
@@ -88,7 +92,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.bless",
+				"subtype" : "bless",
 				"val" : 3
 			}
 		}

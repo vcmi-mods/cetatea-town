@@ -58,8 +58,9 @@
 			"curseOnAttack" :
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
-				"subtype" : "spell.curse",
-				"val" : 35
+				"subtype" : "curse",
+				"val" : 35,
+				"addInfo" : [1, 2]
 			}
 			
 		},
@@ -70,7 +71,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -78,7 +79,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},

@@ -46,7 +46,7 @@
 			"bonuses" : {
 				"fortune" : {
 					"addInfo" : 0,
-					"subtype" : "spell.fortune",
+					"subtype" : "fortune",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

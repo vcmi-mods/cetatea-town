@@ -43,14 +43,14 @@
 		
 		"specialty" : {
 			"base" : {
-				"addInfo" : "creature.cZgriptor",
+				"addInfo" : "cZgriptor",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"griffin2cZgriptor" : { "subtype" : "creature.griffin" },
-				"royalGriffin2cZgriptor" : { "subtype" : "creature.royalGriffin" },
-				"roc2cZgriptor" : { "subtype" : "creature.roc" },
-				"thunderbird2cZgriptor" : { "subtype" : "creature.thunderbird" }
+				"griffin2cZgriptor" : { "subtype" : "griffin" },
+				"royalGriffin2cZgriptor" : { "subtype" : "royalGriffin" },
+				"roc2cZgriptor" : { "subtype" : "roc" },
+				"thunderbird2cZgriptor" : { "subtype" : "thunderbird" }
 			}
 		}
 	}
