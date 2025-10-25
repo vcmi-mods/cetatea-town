@@ -13,10 +13,11 @@
 						"animation" : "cetatea/creatures/dwellings/dw1.def",
 						"mask" : [
 							"VVV",
-							"BAB"
+							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cetatea/creatures/dwellings/flagports/dw1.def"
 			},
 			"dw2" : {
 				"name" : "Cursed Ruins",
@@ -29,12 +30,13 @@
 					"default" : {
 						"animation" : "cetatea/creatures/dwellings/dw2.def",
 						"mask" : [
-							"VVBBV",
-							"VVBBB",
-							"VBBAB"
+							"VVVV",
+							"VVBV",
+							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cetatea/creatures/dwellings/flagports/dw2.def"
 			},
 			"dw3" : {
 				"name" : "Forest Lodge",
@@ -49,10 +51,11 @@
 						"mask" : [
 							"VVV",
 							"VBB",
-							"VAB"
+							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cetatea/creatures/dwellings/flagports/dw3.def"
 			},
 			"dw4" : {
 				"name" : "Black Citadel",
@@ -68,10 +71,11 @@
 						"mask" : [
 							"VVV",
 							"VBB",
-							"BAB"
+							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cetatea/creatures/dwellings/flagports/dw4.def"
 			},
 			"dw5" : {
 				"name" : "Dacic Altar",
@@ -85,12 +89,13 @@
 					"default" : {
 						"animation" : "cetatea/creatures/dwellings/dw5.def",
 						"mask" : [
-							"VVV",
-							"VVV",
-							"BAB"
+							"VVVV",
+							"VVVV",
+							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cetatea/creatures/dwellings/flagports/dw5.def"
 			},
 			"dw6" : {
 				"name" : "Zgriptor's Cliffs",
@@ -107,10 +112,11 @@
 							"VVVV",
 							"VVVV",
 							"VVBV",
-							"VBAV"
+							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cetatea/creatures/dwellings/flagports/dw6.def"
 			},
 			"dw7" : {
 				"name" : "Mighty Grotto",
@@ -124,13 +130,13 @@
 					"default" : {
 						"animation" : "cetatea/creatures/dwellings/dw7.def",
 						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VBBB",
-							"VBAB"
+							"VVV",
+							"VBB",
+							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cetatea/creatures/dwellings/flagports/dw7.def"
 			}
 		}
 	}

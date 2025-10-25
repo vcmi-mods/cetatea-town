@@ -3,7 +3,7 @@
 	"description" : "Town in Romanian Style",
 	"author" : "LizardWarrior, József Csanádi, Planet Avril, avatar, acidchalk",
 	"contact" : "http://heroescommunity.com/viewthread.php3?TID=36219",
-	"version" : "2.25",
+	"version" : "2.26",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
@@ -37,6 +37,9 @@
 		]
 	},
 	"changelog" : {
+		"2.26" : [
+			"Added flagport frames (Kingdom Overview window)"
+		],
 		"2.25" : [
 			"Update to vcmi-1.7 format"
 		],
