@@ -16,6 +16,13 @@
 			"translation/cetatea/chinese.json"
 		]
 	},
+	"french" : {
+		"name" : "Citadel",
+		"description" : "Ville de style roumain",
+		"translations" : [
+			"translation/cetatea/french.json"
+		]
+	},
 	"german" : {
 		"name" : "Cetatea",
 		"description" : "Neue Stadt im rumänischen Stil",
